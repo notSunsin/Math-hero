@@ -1,0 +1,23 @@
+{
+  "name": "math-game-app",
+  "version": "1.0.0",
+  "description": "Aplikasi Matematika Interaktif untuk Anak SD",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Build complete'",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": ["matematika", "edukasi", "anak", "game"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
